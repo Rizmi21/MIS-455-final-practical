@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("2.jpeg");
+  }
+  header {
+    font-weight: bold;
+    background-color: #f7b80a;
+    color: #000000dc;
+    text-align: center;
+    padding: 1rem;
+  }
+  footer {
+   position: fixed;
+   width: 100%;
+   bottom: 0%;
+    background-color: #f7b80a;
+    color: #000000dc;
+    text-align: center;
+    height: 30px;
+    padding: 10PX;
+  }
+  .meal-card {
+    margin-bottom: 1rem;
+  }
+  .show-all-btn {
+    margin-top: 1rem;
+    display: none;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #results {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #searchBtn{
+    background-color: black;
+  }
+  
